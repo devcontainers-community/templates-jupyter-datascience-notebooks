@@ -8,6 +8,17 @@
 
 ## Usage
 
+![Codespaces](https://img.shields.io/static/v1?style=for-the-badge&message=Codespaces&color=181717&logo=GitHub&logoColor=FFFFFF&label=)
+![Devcontainers](https://img.shields.io/static/v1?style=for-the-badge&message=Devcontainers&color=2496ED&logo=Docker&logoColor=FFFFFF&label=)
+
+After creating a GitHub Codespace (or a devcontainer in VS Code), open the
+Command Palette to find the <kbd>Dev Containers: Add Dev Container Configuration
+Files...</kbd> command. After you run it, VS Code will guide you through the
+creation of a `.devcontainer/devcontainer.json` file!
+
+Make sure you click the <kbd>Show All Definitions...</kbd> option to see our
+unofficial templates!
+
 ### Choosing a base image
 
 You can choose from many base images to tailor the container to your project's needs.
