@@ -1,0 +1,41 @@
+{
+	"id": "jupyter-datascience-notebooks",
+	"version": "1.0.2",
+	"name": "Jupyter Data Science Notebooks",
+	"description": "Use Jupyter Data Science Notebooks with Python, R, Julia, and more.",
+	"documentationURL": "https://github.com/devcontainers-community/templates-jupyter-datascience-notebooks",
+	"publisher": "Community",
+	"licenseURL": "https://github.com/devcontainers-community/templates-jupyter-datascience-notebooks/blob/main/LICENSE",
+	"options": {
+		"baseVariant": {
+			"type": "string",
+			"description": "Base image. Check the documentation for details.",
+			"default": "datascience-notebook",
+			"proposals": [
+				"base-notebook",
+				"minimal-notebook",
+				"r-notebook",
+				"scipy-notebook",
+				"tensorflow-notebook",
+				"datascience-notebook",
+				"pyspark-notebook",
+				"all-spark-notebook"
+			]
+		},
+		"imageVariant": {
+			"type": "string",
+			"description": "Image version (tag).",
+			"default": "latest",
+			"proposals": ["latest"]
+		}
+	},
+	"platforms": [
+		"Python",
+		"R",
+		"Julia",
+		"numpy",
+		"pandas",
+		"tidyverse",
+		"much more"
+	]
+}
