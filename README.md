@@ -3,7 +3,7 @@
 🚀 Get started with a Jupyter datascience template
 
 <p align=center>
-  <img src="https://i.imgur.com/awK5O00.png">
+  <img width=500 src="https://i.imgur.com/awK5O00.png">
 </p>
 
 ## Usage
