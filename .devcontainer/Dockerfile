@@ -1,4 +1,4 @@
-FROM docker.io/jupyter/${templateOption:baseVariant}:${templateOption:imageVariant}
+FROM quay.io/jupyter/${templateOption:baseVariant}:${templateOption:imageVariant}
 
 USER root
 # Generally, Dev Container Features assume that the non-root user (in this case jovyan)
